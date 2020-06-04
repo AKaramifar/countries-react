@@ -1,0 +1,25 @@
+.Div_Header_CSS {
+  width: 100%;
+  height: 80px;
+  color: white;
+  background-color: #2b3945;
+  font-family: "Nunito Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 0px 2px 0px #0b0f12;
+}
+.P_TitleQuestion_CSS {
+  margin: 0px 100px;
+  font-size: 18px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  transition: 200ms;
+}
+.P_ThemeSwitcher_CSS {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-right: 120px;
+  transition: 200ms;
+}
