@@ -10,7 +10,7 @@
   box-shadow: 0px 0px 2px 0px #0b0f12;
 }
 .P_TitleQuestion_CSS {
-  margin: 0px 100px;
+  margin: 0px 120px;
   font-size: 18px;
   font-weight: bolder;
   letter-spacing: 1px;
@@ -18,8 +18,20 @@
 }
 .P_ThemeSwitcher_CSS {
   font-size: 14px;
+  padding: 2px;
   font-weight: bold;
   letter-spacing: 1px;
   margin-right: 120px;
+  transition: 200ms;
+}
+.P_ThemeSwitcher_CSS:hover {
+  color: #f1c40f;
+  cursor: pointer;
+}
+.P_ThemeSwitcher_CSS:hover > .I_Sun_CSS{
+  color: #f1c40f;
+}
+.I_Sun_CSS{
+  color: white;
   transition: 200ms;
 }
