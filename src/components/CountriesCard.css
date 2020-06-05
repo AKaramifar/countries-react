@@ -1,0 +1,48 @@
+.Div_ShowCountries_CSS{
+    padding: 0px 7.5%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.Div_SmallCard_CSS{
+    width: 230px;
+    height: 290px;
+    margin: 25px 25px 25px 25px;
+    border-radius: 3px;
+    animation: FadeIn 200ms;
+    transition: 200ms;
+    font-family: "Nunito Sans", sans-serif;
+    background-color: hsl(209, 23%, 22%);
+    color: hsl(0, 0%, 100%);
+    animation: FadeIn 200ms;
+    transition: 200ms;
+    z-index: 0;
+}
+.Div_SmallCard_CSS:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.Img_SmallCardCountryFlag_CSS{
+    width: 230px;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.Strong_SmallCardText_CSS {
+    font-weight: 600;
+}
+.P_SmallCardName_CSS{
+    font-size: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: bold;
+}
+.P_SmallCardPopulation_CSS,
+.P_SmallCardRegion_CSS,
+.P_SmallCardCapital_CSS{
+    font-size: 12px;
+    margin: 5px 5px 5px 15px;
+    font-weight: 300;
+}

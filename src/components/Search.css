@@ -1,0 +1,25 @@
+.Div_SearchCountries_CSS{
+    margin-left: 120px;
+    width: 300px;
+    height: fit-content;
+    color: hsl(0, 0%, 100%);
+}
+.I_SearchIcon_CSS{
+    position: absolute;
+    z-index: 1;
+    margin-top: 13px;
+    margin-left: 15px;
+}
+.Input_Search_CSS{
+    width: 300px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    text-indent: 40px;
+    transition: 200ms;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 1px;
+    background-color: hsl(209, 23%, 22%);
+    box-shadow: 0px 0px 2px 0px rgba(11, 15, 18, 1);
+    outline: none;
+}

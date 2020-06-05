@@ -1,19 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,600,800|Concert+One&display=swap");
-@keyframes FadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 body {
   height: 100vh;
   margin: 0px;
   overflow: overlay;
-  animation: FadeIn 200ms;
-  transition: 200ms;
   background-color: #202C37;
+  overflow: none;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 2px;
 }
 .Div_Root_CSS {
   height: 100%;
