@@ -1,0 +1,90 @@
+.Div_FullViewOfCountry_CSS {
+  animation: FadeIn 200ms;
+  width: 80%;
+  height: fit-content;
+  margin: 50px auto;
+  font-family: "Nunito Sans", sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+.Div_BackButton_CSS {
+  height: 80px;
+}
+.P_BackButton_CSS {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  padding: 7px 25px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 600;
+  color: hsl(0, 0%, 98%);
+  background-color: hsl(207, 26%, 17%);
+  box-shadow: 0px 0px 2px 0px rgba(11, 15, 18, 1);
+}
+.P_BackButton_CSS:hover {
+  cursor: pointer;
+  background-color: hsl(209, 23%, 22%);
+}
+.I_BackButton_CSS {
+  color: hsl(0, 0%, 100%);
+}
+.Div_CountryFullDetiel_CSS {
+  display: flex;
+  font-size: 13px;
+  font-weight: 300;
+}
+.Img_CountryImageFullView_CSS {
+  width: 410px;
+  height: 310px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+.Div_CountryDetiel_CSS {
+  margin-left: 15px;
+}
+.Div_CountryNameFullView_CSS {
+  margin-top: 30px;
+  margin-left: 60px;
+}
+.P_CountryNameFullView_CSS {
+  font-size: 20px;
+  font-weight: 800;
+}
+.Div_CountryDetielFirstChildFullView_CSS {
+  display: flex;
+  align-items: flex-end;
+}
+.Div_CountryDetielFirstChild_01_FullView_CSS {
+  margin-left: 60px;
+  height: fit-content;
+}
+.Div_CountryDetielFirstChild_02_FullView_CSS {
+  margin-left: 130px;
+  height: 129px;
+}
+.Div_CountryDetailContainerSecondChildFullView_CSS {
+  margin-left: 60px;
+  display: flex;
+}
+.P_CountryBorderCountriesFullView_CSS {
+  align-items: center;
+  width: fit-content;
+  font-size: 13px;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  font-weight: 600;
+}
+.P_CountryBorder_CSS {
+  font-weight: 300;
+  margin-left: 5px;
+  padding: 3px 5px 3px 5px;
+  border-radius: 3px;
+  width: fit-content;
+  background-color: hsl(207, 26%, 17%);
+  box-shadow: 0px 0px 2px 0px rgba(11, 15, 18, 1);
+}
+.P_CountryBorder_CSS:hover{
+  cursor: pointer;
+  background-color: hsl(209, 23%, 22%);
+}

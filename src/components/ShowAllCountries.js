@@ -32,7 +32,7 @@ const ShowAllCountries = (props) => {
         <Search search={searchCountry}/>
         <Region data={props.data} selectRegoin={selectedRegoin} />
       </div>
-      <CountriesCard country={countryCard} />
+      <CountriesCard countryToFullView={props.countryToFullView} country={countryCard} />
     </div>
   );
 };

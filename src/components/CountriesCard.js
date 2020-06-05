@@ -11,6 +11,7 @@ const CountriesCard = (props) => {
               id={"Div_SmallCard_" + index + "_JSX"}
               className="Div_SmallCard_CSS"
               key={"SmallCardCountry_" + index}
+              onClick={() => props.countryToFullView(country.name)}
             >
               <img
                 id={"Img_SmallCardCountryFlag_" + index + "_JSX"}
