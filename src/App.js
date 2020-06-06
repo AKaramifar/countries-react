@@ -35,7 +35,7 @@ function App() {
       <Header />
       <div id="Div_Main_JSX" className="Div_Main_CSS">
         {
-          view === "Small View" ? <ShowAllCountries data={countriesInfo} changeview={changeView} countryToFullView={countryToShow}/> : <FullViewOfCountry countryToFullView={countryToShow} countryFullView={country} changeview={changeView}/>
+          view === "Small View" ? <ShowAllCountries data={countriesInfo} changeview={changeView} countryToFullView={countryToShow}/> : <FullViewOfCountry data={countriesInfo} countryToFullView={countryToShow} countryFullView={country} changeview={changeView}/>
         }
       </div>
     </div>
