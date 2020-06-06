@@ -10,6 +10,7 @@ const FullViewOfCountry = (props) => {
         .map((country, index) => {
           return (
             <div key={index}>
+              {console.log(country)}
               <div id="Div_BackButton_JSX" className="Div_BackButton_CSS">
                 <p
                   id="P_BackButton_CSS"
@@ -108,7 +109,7 @@ const FullViewOfCountry = (props) => {
                       </p>
                     </div>
                   </div>
-                  <FadeIn
+                  <div
                     id="Div_CountryDetailContainerSecondChildFullView_JSX"
                     className="Div_CountryDetailContainerSecondChildFullView_CSS"
                   >
@@ -132,11 +133,13 @@ const FullViewOfCountry = (props) => {
                               props.countryToFullView(Countries.name)
                             }
                           >
+                            {console.log(Countries.alpha3Code)}
+                            {console.log(country.borders)}
                             {Countries.name}
                           </p>
                         );
                       })}
-                  </FadeIn>
+                  </div>
                 </div>
               </div>
             </div>

@@ -12,7 +12,7 @@
   background-color: var(--second-bg-color);
   color: var(--text-color);
   box-shadow: 0px 0px 2px 0px var(--box-shadow);
-  font-family: "Nunito Sans", sans-serif;  
+  font-family: "Nunito Sans", sans-serif;
   transition: 200ms;
 }
 .Div_CountriesRegion_CSS:hover {
@@ -30,8 +30,7 @@
   width: 170px;
   height: 40px;
   font-size: 14px;
-  font-weight: 600;  
-  
+  font-weight: 600;
 }
 .P_Region_CSS {
   display: none;

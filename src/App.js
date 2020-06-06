@@ -29,6 +29,7 @@ function App() {
     setView(viewType);
   };
   const countryToShow = (countryName) => {
+    console.log(countryName)
     setCountry(countryName);
     setView("Full View");
   };
