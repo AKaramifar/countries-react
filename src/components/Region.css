@@ -1,55 +1,55 @@
-.Div_CountriesRegion_CSS{
-    width: 170px;
-    height: 40px;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border: none;
-    margin-right: 120px;
-    text-indent: 15px;
-    transition: 200ms;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: hsl(209, 23%, 22%);
-    color: hsl(0, 0%, 100%);
-    box-shadow: 0px 0px 2px 0px rgba(11, 15, 18, 1);
-    font-family: "Nunito Sans", sans-serif;    
+.Div_CountriesRegion_CSS {
+  width: 170px;
+  height: 40px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border: none;
+  margin-right: 120px;
+  text-indent: 15px;
+  transition: 200ms;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: hsl(209, 23%, 22%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: 0px 0px 2px 0px rgba(11, 15, 18, 1);
+  font-family: "Nunito Sans", sans-serif;
 }
-.Div_CountriesRegion_CSS:hover{
-    cursor: pointer;
+.Div_CountriesRegion_CSS:hover {
+  cursor: pointer;
 }
 .P_SelectedRegion_CSS,
-.P_Region_CSS{    
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0px 0px 3px 0px;
-    width: 170px;
-    height: 40px;
-    transition: 200ms;
-    font-size: 14px;
-    font-weight: 600;
-    border-left: 0.5px solid rgb(37, 37, 37);
-    border-right: 0.5px solid rgb(37, 37, 37);
-    animation: FadeIn 200ms;
-    transition: 200ms;
+.P_Region_CSS {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 0px 3px 0px;
+  width: 170px;
+  height: 40px;
+  transition: 200ms;
+  font-size: 14px;
+  font-weight: 600;
+  border-left: 0.5px solid rgb(37, 37, 37);
+  border-right: 0.5px solid rgb(37, 37, 37);
+  animation: FadeIn 200ms;
+  transition: 200ms;
 }
-.P_Region_CSS{
-    display: none;
-    margin: 0px;
-    background-color: hsl(209, 23%, 22%);
-    z-index: 1000;
+.P_Region_CSS {
+  display: none;
+  margin: 0px;
+  background-color: hsl(209, 23%, 22%);
+  z-index: 1000;
 }
-.P_Region_CSS:hover{
-    background-color: hsl(208, 19%, 26%);
+.P_Region_CSS:hover {
+  background-color: hsl(208, 19%, 26%);
 }
-.P_Region_CSS:last-child{
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom: 0.5px solid rgb(37, 37, 37);
+.P_Region_CSS:last-child {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom: 0.5px solid rgb(37, 37, 37);
 }
-.I_DownSymbol_CSS{
-    position: absolute;
-    margin-left: 130px;
-    margin-top: 11px;
-    font-size: 15px;
+.I_DownSymbol_CSS {
+  position: absolute;
+  margin-left: 130px;
+  margin-top: 11px;
+  font-size: 15px;
 }

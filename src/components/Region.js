@@ -1,17 +1,23 @@
-import React from 'react';
-import '../components/Region.css'
+import React from "react";
+import "../components/Region.css";
 
 const Region = (props) => {
   let regionArray = [];
   let regionIndex = [];
   let regionVisiblityState = false;
   const selectBoxState = () => {
-    regionVisiblityState ? regionVisiblityState = false : regionVisiblityState = true;
-    document.getElementById("P_Region_JSX").style.display = !regionVisiblityState  ? "none" : "flex";
+    regionVisiblityState
+      ? (regionVisiblityState = false)
+      : (regionVisiblityState = true);
+    document.getElementById(
+      "P_Region_JSX"
+    ).style.display = !regionVisiblityState ? "none" : "flex";
     regionIndex.forEach((region) => {
-      document.getElementById("P_Region_" + region + "_JSX").style.display = !regionVisiblityState  ? "none" : "flex";
-    })
-  }
+      document.getElementById(
+        "P_Region_" + region + "_JSX"
+      ).style.display = !regionVisiblityState ? "none" : "flex";
+    });
+  };
   return (
     <div
       id="Div_CountriesRegion_JSX"
@@ -29,7 +35,9 @@ const Region = (props) => {
       >
         All Region
       </p>
-      {props.data.sort((a, b) => a.region.localeCompare(b.region)).map((country, index) => {
+      {props.data
+        .sort((a, b) => a.region.localeCompare(b.region))
+        .map((country, index) => {
           if (regionArray.includes(country.region) || country.region === "")
             return null;
           regionArray.push(country.region);

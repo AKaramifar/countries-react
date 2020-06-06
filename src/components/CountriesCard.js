@@ -1,5 +1,6 @@
-import React from 'react';
-import '../components/CountriesCard.css';
+import React from "react";
+import "../components/CountriesCard.css";
+
 const CountriesCard = (props) => {
   return (
     <div id="Div_ShowCountries_JSX" className="Div_ShowCountries_CSS">

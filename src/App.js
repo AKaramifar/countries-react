@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import Header from "./components/Header.js";
 import ShowAllCountries from "./components/ShowAllCountries.js";
-import FullViewOfCountry from "./components/FullViewOfCountry.js"
+import FullViewOfCountry from "./components/FullViewOfCountry.js";
 
 function App() {
   const [countriesInfo, setData] = useState([]);
@@ -34,9 +34,20 @@ function App() {
     <div id="Div_App_JSX" className="Div_App_CSS">
       <Header />
       <div id="Div_Main_JSX" className="Div_Main_CSS">
-        {
-          view === "Small View" ? <ShowAllCountries data={countriesInfo} changeview={changeView} countryToFullView={countryToShow}/> : <FullViewOfCountry data={countriesInfo} countryToFullView={countryToShow} countryFullView={country} changeview={changeView}/>
-        }
+        {view === "Small View" ? (
+          <ShowAllCountries
+            data={countriesInfo}
+            changeview={changeView}
+            countryToFullView={countryToShow}
+          />
+        ) : (
+          <FullViewOfCountry
+            data={countriesInfo}
+            countryToFullView={countryToShow}
+            countryFullView={country}
+            changeview={changeView}
+          />
+        )}
       </div>
     </div>
   );

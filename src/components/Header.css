@@ -28,10 +28,10 @@
   color: #f1c40f;
   cursor: pointer;
 }
-.P_ThemeSwitcher_CSS:hover > .I_Sun_CSS{
+.P_ThemeSwitcher_CSS:hover > .I_Sun_CSS {
   color: #f1c40f;
 }
-.I_Sun_CSS{
+.I_Sun_CSS {
   color: white;
   transition: 200ms;
 }

@@ -3,7 +3,7 @@ body {
   height: 100vh;
   margin: 0px;
   overflow: overlay;
-  background-color: #202C37;
+  background-color: #202c37;
   overflow: none;
 }
 ::-webkit-scrollbar {

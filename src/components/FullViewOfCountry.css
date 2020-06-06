@@ -85,7 +85,7 @@
   background-color: hsl(207, 26%, 17%);
   box-shadow: 0px 0px 2px 0px rgba(11, 15, 18, 1);
 }
-.P_CountryBorder_CSS:hover{
+.P_CountryBorder_CSS:hover {
   cursor: pointer;
   background-color: hsl(209, 23%, 22%);
 }
