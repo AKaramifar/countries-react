@@ -9,6 +9,7 @@
   z-index: 1;
   margin-top: 13px;
   margin-left: 15px;
+  transition: 200ms;
 }
 .Input_Search_CSS {
   width: 300px;

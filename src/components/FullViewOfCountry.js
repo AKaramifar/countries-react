@@ -1,9 +1,10 @@
 import React from "react";
+import FadeIn from 'react-fade-in';
 import "../components/FullViewOfCountry.css";
 
 const FullViewOfCountry = (props) => {
   return (
-    <div id="Div_FullViewOfCountry_JSX" className="Div_FullViewOfCountry_CSS">
+    <FadeIn id="Div_FullViewOfCountry_JSX" className="Div_FullViewOfCountry_CSS">
       {props.data
         .filter((country) => country.name === props.countryFullView)
         .map((country, index) => {
@@ -107,7 +108,7 @@ const FullViewOfCountry = (props) => {
                       </p>
                     </div>
                   </div>
-                  <div
+                  <FadeIn
                     id="Div_CountryDetailContainerSecondChildFullView_JSX"
                     className="Div_CountryDetailContainerSecondChildFullView_CSS"
                   >
@@ -135,13 +136,13 @@ const FullViewOfCountry = (props) => {
                           </p>
                         );
                       })}
-                  </div>
+                  </FadeIn>
                 </div>
               </div>
             </div>
           );
         })}
-    </div>
+    </FadeIn>
   );
 };
 

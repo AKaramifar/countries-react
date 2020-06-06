@@ -13,6 +13,7 @@ body {
   overflow: overlay;
   background-color: var(--main-bg-color);
   overflow: none;
+  transition: 200ms;
 }
 ::-webkit-scrollbar {
   width: 5px;
