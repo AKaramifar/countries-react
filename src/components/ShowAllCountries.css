@@ -1,16 +1,4 @@
-@keyframes FadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-.Div_ShowAllCountries_CSS {
-  width: auto;
-}
 .Div_SearchBar_CSS {
-  width: auto;
   height: 100px;
   display: flex;
   justify-content: space-between;

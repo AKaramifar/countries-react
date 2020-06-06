@@ -4,7 +4,7 @@
   height: fit-content;
   margin: 50px auto;
   font-family: "Nunito Sans", sans-serif;
-  color: hsl(0, 0%, 100%);
+  color: var(--text-color);
 }
 .Div_BackButton_CSS {
   height: 80px;
@@ -17,16 +17,16 @@
   border-radius: 3px;
   font-size: 14px;
   font-weight: 600;
-  color: hsl(0, 0%, 98%);
-  background-color: hsl(207, 26%, 17%);
-  box-shadow: 0px 0px 2px 0px rgba(11, 15, 18, 1);
+  transition: 200ms;
+  color: var(--text-color);
+  box-shadow: 0px 0px 2px 0px var(--box-shadow);
 }
 .P_BackButton_CSS:hover {
   cursor: pointer;
-  background-color: hsl(209, 23%, 22%);
+  background-color: var(--second-bg-color);
 }
 .I_BackButton_CSS {
-  color: hsl(0, 0%, 100%);
+  color: var(--text-color);
 }
 .Div_CountryFullDetiel_CSS {
   display: flex;
@@ -82,10 +82,10 @@
   padding: 3px 5px 3px 5px;
   border-radius: 3px;
   min-width: fit-content;
-  background-color: hsl(207, 26%, 17%);
-  box-shadow: 0px 0px 2px 0px rgba(11, 15, 18, 1);
+  box-shadow: 0px 0px 2px 0px var(--box-shadow);
+  transition: 200ms;
 }
 .P_CountryBorder_CSS:hover {
   cursor: pointer;
-  background-color: hsl(209, 23%, 22%);
+  background-color: var(--second-bg-color);
 }

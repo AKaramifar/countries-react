@@ -1,16 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,600,800|Concert+One&display=swap");
+:root {
+  --main-bg-color: #202c37;
+  --second-bg-color: #2b3945;
+  --text-color: #ffffff;
+  --box-shadow: #0b0f12;
+  --box-shadow-card: #26262680;
+  --menu-item-hover-bg-color: #36434f;
+}
 body {
   height: 100vh;
   margin: 0px;
   overflow: overlay;
-  background-color: #202c37;
+  background-color: var(--main-bg-color);
   overflow: none;
 }
 ::-webkit-scrollbar {
   width: 5px;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: white;
   border-radius: 2px;
 }
 .Div_Root_CSS {

@@ -1,3 +1,7 @@
+.tip{
+  display:none;
+}
+
 .Div_CountriesRegion_CSS {
   width: 170px;
   height: 40px;
@@ -9,13 +13,16 @@
   transition: 200ms;
   display: flex;
   flex-wrap: wrap;
-  background-color: hsl(209, 23%, 22%);
-  color: hsl(0, 0%, 100%);
-  box-shadow: 0px 0px 2px 0px rgba(11, 15, 18, 1);
+  background-color: var(--second-bg-color);
+  color: var(--text-color);
+  box-shadow: 0px 0px 2px 0px var(--box-shadow);
   font-family: "Nunito Sans", sans-serif;
 }
 .Div_CountriesRegion_CSS:hover {
   cursor: pointer;
+}
+.Div_CountriesRegion_CSS:hover > .P_SelectedRegion_CSS {
+  background-color: var(--menu-item-hover-bg-color);
 }
 .P_SelectedRegion_CSS,
 .P_Region_CSS {
@@ -27,25 +34,25 @@
   height: 40px;
   transition: 200ms;
   font-size: 14px;
-  font-weight: 600;
-  border-left: 0.5px solid rgb(37, 37, 37);
-  border-right: 0.5px solid rgb(37, 37, 37);
+  font-weight: 600;  
   animation: FadeIn 200ms;
   transition: 200ms;
 }
 .P_Region_CSS {
   display: none;
+  border-left: 0.5px solid var(--box-shadow);
+  border-right: 0.5px solid var(--box-shadow);
   margin: 0px;
-  background-color: hsl(209, 23%, 22%);
+  background-color: var(--second-bg-color);
   z-index: 1000;
 }
 .P_Region_CSS:hover {
-  background-color: hsl(208, 19%, 26%);
+  background-color: var(--menu-item-hover-bg-color);
 }
 .P_Region_CSS:last-child {
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
-  border-bottom: 0.5px solid rgb(37, 37, 37);
+  border-bottom: 0.5px solid var(--box-shadow);
 }
 .I_DownSymbol_CSS {
   position: absolute;
